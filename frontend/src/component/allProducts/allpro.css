@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.createBtn{
+    padding: 13px !important;
+    font-size: larger;
+    font-weight: 600;
+    color: tomato !important;   
+    background-color: #fff !important;
+    outline: tomato;
+    font-family: sans-serif;
+    border-color: tomato;
+    border-radius: 30px;
+    transition: 0.2s ease;
+    margin-top: 5%;
+}
+.createBtn:hover{
+    background-color: tomato !important;
+    color: white !important;
+}
+.feature{
+    text-align: center;
+    padding: 50px;
+    color: tomato;
+}

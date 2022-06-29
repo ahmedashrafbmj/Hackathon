@@ -1,0 +1,84 @@
+.oneProPic {
+    width: 70%;
+}
+
+.detailsBlocks {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    padding: 6vmax;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.detailsBlocks>div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2vmax;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.detailsBlock-3-1-1>input {
+    border: none;
+    padding: 0.5vmax;
+    width: 15px;
+    text-align: center;
+    outline: none;
+    font:400 0.8vmax ;
+    color: rgba(0,0,0,0.74);
+}
+.createMain{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    margin: auto;
+    height: 100vh;
+}
+.createMain input{
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.createMain button{
+    margin-top: 20px;
+    width: 40%;
+    margin-left: 33%;
+    padding: 10px !important;
+    font-size: larger;
+    font-weight: 600;
+    color: tomato !important;
+    background-color: #fff !important;
+    outline: tomato;
+    font-family: sans-serif;
+    border-color: tomato;
+    border-radius: 30px;
+    transition: 0.2s ease;
+    margin-top: 5%;
+}
+.createMain button:hover{
+    background-color: tomato !important;
+    color: white !important;
+}
+.bookBtn{
+    padding: 13px !important;
+    font-size: larger;
+    font-weight: 600;
+    color: tomato !important;
+    background-color: #fff !important;
+    outline: tomato;
+    font-family: sans-serif;
+    border-color: tomato;
+    border-radius: 30px;
+    transition: 0.2s ease;
+}
+.bookBtn:hover{
+    background-color: tomato !important;
+    color: white !important;
+}

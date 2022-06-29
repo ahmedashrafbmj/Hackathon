@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.headerMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px 20px 60px ;
+    background-color: rgb(240, 240, 240);
+}
+.headerMain h2{
+    color: tomato;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.headerMain div:nth-child(1){
+    width: 60%;
+}
+.headerMain div:nth-child(2){
+    width: 40%;
+}
+.headerMain ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.headerMain li{
+    list-style-type: none;
+}
+.ul{
+    color: tomato;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Carousel */
+
+.caroWidth{
+    width: 100%;
+    height: 60vh;
+}
+.createBtn{
+    padding: 13px !important;
+    font-size: larger;
+    font-weight: 600;
+    color: tomato !important;
+    background-color: #fff !important;
+    outline: tomato;
+    font-family: sans-serif;
+    border-color: tomato;
+    border-radius: 30px;
+    transition: 0.2s ease;
+}
+.createBtn:hover{
+    background-color: tomato !important;
+    color: white !important;
+}
+ /* footer */
+
+ .FooterMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20vh;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.74);
+    height: 40%;
+    text-align: center;
+    padding: 30px;
+}
+.FooterMain div:nth-child(1){
+    width: 25%;
+
+}
+.FooterMain div:nth-child(2){
+    width: 50%;
+}
+.FooterMain div:nth-child(3){
+    width: 25%;
+}
+
+/* main */
+.main{
+    margin-top: 60px;
+}
+.feature{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.productMain{
+    width: 26%;
+    height: 45vh;
+    border: 1px solid rgba(128, 128, 128, 0.596);
+    box-shadow: 0px 0px 15px 1px grey;
+    padding: 10px;
+    transition: all 0.3s;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+.productMain img{
+    width: 100%;
+    height: 55%;
+}
+.productMain p{
+    margin-top: 0px;
+    color: tomato;
+    font-weight: 500;
+    font-size: 20px;
+}
+.productMain:hover{
+    transform: translateY(-1vmax);
+    box-shadow: 0px 0px 25px 3px grey;
+}
+
+/* Loader */
+
+.loaderMain{
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    display: grid;
+    place-items: center;
+    max-width: 100%;
+}
+.loaderMain > div{
+    width: 10vmax;
+    height: 10vmax;
+    border-bottom: 5px solid grey;
+    border-radius: 50%;
+    animation: loaderRotate 800ms linear infinite;
+}
+
+@keyframes loaderRotate{
+    to{
+        transform: rotateZ(-360deg);
+    }
+}

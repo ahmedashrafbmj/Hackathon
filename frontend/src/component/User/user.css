@@ -1,0 +1,113 @@
+.accountMain {
+    width: 40%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.accountMain div {
+    display: flex;
+    justify-content: center;
+}
+
+.accountMain button {
+    margin-left: 8px;
+    width: 15%;
+    padding: 10px !important;
+    font-size: medium;
+    font-weight: 300;
+    color: tomato !important;
+    background-color: #fff !important;
+    outline: tomato;
+    font-family: sans-serif;
+    border-color: tomato;
+    border-radius: 30px;
+    transition: 0.2s ease;
+}
+
+.accountMain button:hover {
+    background-color: tomato !important;
+    color: white !important;
+}
+
+.logoutBtn {
+    padding: 13px !important;
+    font-size: larger;
+    font-weight: 600;
+    color: tomato !important;
+    background-color: #fff !important;
+    outline: tomato;
+    font-family: sans-serif;
+    border-color: tomato;
+    border-radius: 30px;
+    transition: 0.2s ease;
+    margin-top: 5%;
+    margin-left: 90%;
+
+}
+
+.logoutBtn:hover {
+    background-color: tomato !important;
+    color: white !important;
+}
+.myBooking{
+    padding: 13px !important;
+    font-size: larger;
+    font-weight: 600;
+    color: tomato !important;
+    background-color: #fff !important;
+    outline: tomato;
+    font-family: sans-serif;
+    border-color: tomato;
+    border-radius: 30px;
+    transition: 0.2s ease;
+    margin-top: 5%;
+}
+.myBooking:hover {
+    background-color: tomato !important;
+    color: white !important;
+}
+.logSignContainer {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    margin: auto;
+    height: 70vh;
+}
+
+.loginForm input {
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.loginForm button {
+    margin-top: 20px;
+    width: 25%;
+    margin-left: 33%;
+    padding: 7px !important;
+    font-size: larger;
+    font-weight: 600;
+    color: tomato !important;
+    background-color: #fff !important;
+    outline: tomato;
+    font-family: sans-serif;
+    border-color: tomato;
+    border-radius: 30px;
+    transition: 0.2s ease;
+    margin-top: 5%;
+}
+
+.loginForm button:hover {
+    background-color: tomato !important;
+    color: white !important;
+}
+.details{
+    position: sticky;
+    margin-left: 80%;
+    padding: 10px;
+}
